@@ -1,0 +1,25 @@
+.Profile {
+  margin-top: 48px;
+  &__form {
+    margin: 32px auto auto;
+    width: 300px;
+    input {
+      width: 100%;
+      margin-bottom: 16px;
+    }
+  }
+
+  &__heading {
+    margin: 32px 0 18px 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+  }
+
+  &__email {
+    margin-top: 12px;
+    color: #FFFFFF;
+    opacity: 0.5;
+  }
+}

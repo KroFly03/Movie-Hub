@@ -1,0 +1,31 @@
+.Login {
+  padding: 0 24px;
+  h1 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #FFFFFF;
+  }
+
+  span {
+    color: #FFFFFF;
+    opacity: 0.5;
+  }
+
+  &__form {
+    margin: 12px auto auto;
+    width: 300px;
+    input {
+      width: 100%;
+      margin-bottom: 24px;
+    }
+  }
+
+  &__message {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 12px 16px;
+    margin-bottom: 24px;
+  }
+}

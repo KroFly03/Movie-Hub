@@ -1,0 +1,23 @@
+.Header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+  &__secondary {
+    flex-direction: column-reverse;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  &__subtitle {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+  }
+}

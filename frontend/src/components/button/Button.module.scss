@@ -1,0 +1,35 @@
+.Button {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 12px 14px;
+  cursor: pointer;
+  &_type {
+    &_light {
+      color: #000000;
+      background: rgba(255, 255, 255, 1);
+      &:hover {
+        background: rgba(255, 255, 255, 0.75);
+      }
+      &:active {
+        background: rgba(255, 255, 255, 0.5);
+      }
+    }
+    &_dark {
+      color: #FFFFFF;
+      background: rgba(255, 255, 255, 0.25);
+      &:hover {
+        background: rgba(255, 255, 255, 0.5);
+      }
+      &:active {
+        background: rgba(255, 255, 255, 0.75);
+      }
+    }
+  }
+}

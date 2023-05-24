@@ -1,0 +1,22 @@
+.Tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 4px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration: none;
+  &:hover {
+    background: rgba(255, 255, 255, 0.5);
+  }
+  &:active {
+    background: rgba(255, 255, 255, 0.7);
+  }
+}

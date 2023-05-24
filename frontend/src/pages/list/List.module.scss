@@ -1,0 +1,9 @@
+.List {
+  padding: 0 24px;
+  @media only screen and (max-width: 768px) {
+    padding: 0 12px;
+  }
+  &__cards {
+    margin-top: 32px;
+  }
+}

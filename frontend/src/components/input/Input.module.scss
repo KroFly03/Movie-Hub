@@ -1,0 +1,15 @@
+.Input {
+  input {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+    color: #FFFFFF;
+    height: 44px;
+    padding: 0 12px;
+    &:hover {
+      outline: none;
+    }
+  }
+}

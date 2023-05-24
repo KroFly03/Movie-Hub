@@ -1,0 +1,59 @@
+.MovieCard {
+  width: 240px;
+  padding: 8px;
+  text-decoration: none;
+  @media only screen and (max-width: 768px) {
+    width: 40vw;
+  }
+
+  &__image {
+    width: 100%;
+    height: 320px;
+    border-radius: 11px;
+    cursor: pointer;
+    border: 2px transparent solid;
+    transition: border 0.3s ease-in-out;
+    @media only screen and (max-width: 768px) {
+      height: 60vw
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    &:hover {
+      border: 2px #9ed870 solid;
+    }
+  }
+  &__title {
+    font-family: Arial, sans-serif;
+    margin-top: 12px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+  &__additional {
+    display: flex;
+    margin-top: 8px;
+    p {
+      font-family: Arial, sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 14px;
+      text-align: center;
+      color: #FFFFFF;
+      cursor: pointer;
+    }
+  }
+  &__rating {
+    margin-right: 8px;
+  }
+  &__year {
+    opacity: 0.5;
+  }
+}
