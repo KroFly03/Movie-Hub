@@ -9,6 +9,8 @@ On this site you can see information about the films. If you register on the sit
 * Python 3.10.6
 
 * Node 19.8.1
+  
+* Flask==2.1.3
 
 ## Build
 
